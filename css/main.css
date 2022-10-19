@@ -1,0 +1,17 @@
+*{
+    font-family: poppins;
+}
+.centered{
+    width:22%;
+    padding: 20px 20px;
+    height: 100px;
+    background: #eee;
+    border-radius: 5px;
+}
+label{
+    padding: 15px;
+}
+#radio{
+    font-weight: 300;
+
+}
