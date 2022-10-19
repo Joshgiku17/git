@@ -15,3 +15,18 @@ label{
     font-weight: 300;
 
 }
+.main{
+    width:22%;
+    float:right;
+    
+}
+.main p,h3{
+    text-align: right;
+    padding: 10px;
+}
+.main:hover{
+    background: #eee;
+    font-weight: 700;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
