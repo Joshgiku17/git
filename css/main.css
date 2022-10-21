@@ -1,32 +1,140 @@
 *{
-    font-family: poppins;
-}
-.centered{
-    width:22%;
-    padding: 20px 20px;
-    height: 100px;
-    background: #eee;
-    border-radius: 5px;
-}
-label{
-    padding: 15px;
-}
-#radio{
-    font-weight: 300;
-
-}
-.main{
-    width:22%;
-    float:right;
+    font-family: 'Nunito',sans-serif;
+    margin: 0px;
+    margin-right: 0px;
     
 }
-.main p,h3{
-    text-align: right;
-    padding: 10px;
+body{
+    background-color: #eee;
+    position: relative;
 }
-.main:hover{
-    background: #eee;
-    font-weight: 700;
-    border-top-left-radius: 100px;
-    border-bottom-left-radius: 100px;
+.container{
+    /* background-color: teal; */
+    background:url(../img/maldives-beach-wallpaper.jpg);
+     margin: auto;
+     padding: 50px;
+    background-size: cover;
+    
+    /* background-blend-mode:luminosity; */
+    height:400px;
+    border-bottom-left-radius: 1250px;
+    
+    
+}
+container:hover{
+    background: rgba(42, 42, 42, 0.5);
+    
+}
+.right_box{
+    /* margin: auto; */
+    width:20%;
+    position: relative;
+    float: right;
+    /* background:; */
+    background: linear-gradient(45deg,rgb(19, 121, 165),rgb(114, 114, 224), rgb(165, 19, 133));
+    /* background: url(); */
+    top: 20px;
+    right: 30px;
+    padding: 40px ;
+    border-radius: 10px;
+    box-shadow: 0px 5px 30px 1px rgb(204, 48, 147);
+    color: white;
+    font-size: 23px;
+    height: 300px;
+}
+.right_box:hover{
+    background: linear-gradient(45deg,rgb(70, 126, 150),rgb(7, 7, 142), rgb(15, 32, 101));
+}
+
+.heading{
+    font-size: 16px;
+    position: relative;
+    top: -15px;
+    display: inline-flex;
+    
+}
+.quote span {
+    font-weight: 500;
+}
+.quote{
+    position: relative;
+    left: 20px;
+    justify-center: center;
+    /* margin: 0px 15 0px 15px; */
+    /* justify-content: center; */
+    /* text-align: center; */
+}
+h2{
+    position: relative;
+    left: 70px;
+    top: -20px;
+    padding: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    
+}
+h2:hover{
+    animation-name: swipe-right;
+    animation-duration: 1s;
+    animation-delay: 1ms;
+    animation-fill-mode: forwards;
+}
+@keyframes swipe-right {
+    20%{
+        
+        /* transform: scale(1.5); */
+    }
+    40%{
+        transform: scale(1.1);
+    }
+    60%{
+        transform:scaleY(1.2);
+    }
+
+}
+.border{
+   
+    width: 120px;
+    height: 30px;
+    left: 50px;
+    position: relative;
+    top:40px;
+
+}
+.bi{
+    display:inline;
+    padding:5px;
+    /* width: 50px; */
+}
+
+.headline{
+    width:50%;
+    height:130px;
+    left: 100px;
+    margin: 50px 0px 0px 240px;
+    position: relative;
+
+}
+.changes{
+    font-size: 50px;
+    /* padding: 10px; */
+    font-family: 'Roboto',sans-serif;
+    position: relative;
+}
+.changes:hover{
+   
+   color: limegreen;
+}
+.icons{
+    position: relative;
+    left: 150px;
+    
+}
+hr{
+    margin: 0px 40px 0px 340px;
+    width: 30%;
+
+    /* left:250px; */
+    position: relative;
 }
